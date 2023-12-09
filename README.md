@@ -3,7 +3,7 @@
 -Python modules: time, pydirectinput, pyautogui, pyperclip <br />
 -run_as_date <br />
 -Desmume <br />
--An english or french rom of Platinum with your save in front of the ribbon girl (Note : didn't test with diamond and pearl but it should work, HGSS don't work) <br />
+-An english or french rom of Platinum with your save in front of the ribbon girl (Note : didn't test with diamond and pearl but it should work, HGSS doesn't work) <br />
 
 # Setup 
 -Download the repository and extract it wherever you want <br />
