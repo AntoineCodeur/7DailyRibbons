@@ -44,8 +44,11 @@ def launch(FilenameRead, is_test=True):
 
     # Open the file
     pressdouble('ctrl', 'o')
+    time.sleep(0.5)
     pressdouble('ctrl', 'v')
+    time.sleep(0.5)
     press('enter')
+    time.sleep(0.5)
 
     # Setup desmume in x4
     for _ in range(5):
