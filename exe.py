@@ -1,5 +1,5 @@
 import testautomatisation
-#testautomatisation.run()
+testautomatisation.run()
 
 
-
+                
