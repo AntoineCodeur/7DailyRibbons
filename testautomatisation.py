@@ -34,9 +34,11 @@ def pressdouble(button1, button2):
     pydirectinput.keyUp(button1)
     pydirectinput.keyUp(button2)
 
-def launch(is_test=True):
+def launch(FilenameRead, is_test=True):
     if is_test:
         time.sleep(3)
+    else:
+        time.sleep(1)
     filename = FilenameRead
     pyperclip.copy(filename)
 
@@ -58,6 +60,7 @@ def launch(is_test=True):
     press('z')
     time.sleep(1)
     press('enter')
+    time.sleep(1)
 
 def get_ribbon_fr():
     pydirectinput.keyDown('x')
@@ -160,11 +163,11 @@ def save():
 def quit():
     pressdouble('alt', 'f4')
 
-def ribbon(is_test=True, lang='FR'):
-    launch(is_test)
-    if lang=='FR':
+def ribbon(FilenameRead, langage, is_test=True):
+    launch(FilenameRead, is_test)
+    if langage=='FR':
         get_ribbon_fr()
-    elif lang=='EN':
+    elif langage=='EN':
         get_ribbon_en()
     else:
         print("ERROR: LANGUAGE CAN ONLY BE 'EN' OR 'FR'")
@@ -194,16 +197,16 @@ def changedate(first_time=False, is_test=True):
 
 
 # le keyboard interrupt marche pas, à revoir + revoir transition apres le premier run 
-def run(print_time=False):
+def run(print_time=False, langage=langage, FilenameRead=FilenameRead):
     if print_time:
         begin = time.time()
     print("Progress: -------")
     changedate(first_time=True, is_test=False)
-    ribbon(is_test=False)
+    ribbon(FilenameRead, langage, is_test=False)
     print("          #------")
     for i in range(6):
         changedate()
-        ribbon()
+        ribbon(FilenameRead, langage)
         StringProgress = "          " + '#' * (i + 2) + '-' * (5 - i)
         print(StringProgress)
     print("Run finished. ", end="")
