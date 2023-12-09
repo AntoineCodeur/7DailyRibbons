@@ -5,7 +5,7 @@ One run (7 ribbons) takes between 4 and 5 minutes.
 
 
 # Softwares requirements
--Python (works in 3.11.6 at least) <br />
+-Python (i can only guarantee it works in 3.11.6) <br />
 -Python modules: time, pydirectinput, pyautogui, pyperclip <br />
 -run_as_date <br />
 -Desmume <br />
