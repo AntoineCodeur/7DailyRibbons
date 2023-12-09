@@ -1,3 +1,9 @@
+# Overview
+This small script will help you farming the 7 daily ribbons on multiple pokemons without spending a ton of time doing it yourself. <br />
+It uses direct inputs with a python script, so you can run it while you're doing something else, but you can't use your pc meanwhile. <br />
+One run (7 ribbons) takes between 4 and 5 minutes.
+
+
 # Softwares requirements
 -Python (works in 3.11.6 at least) <br />
 -Python modules: time, pydirectinput, pyautogui, pyperclip <br />
