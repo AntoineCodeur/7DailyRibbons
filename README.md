@@ -6,7 +6,7 @@
 -An english or french rom of Platinum with your save in front of the ribbon girl (Note : didn't test with diamond and pearl but it should work, HGSS don't work) <br />
 
 # Setup 
--Download the repository and extract it wherever you want
+-Download the repository and extract it wherever you want <br />
 -Open desmume, use ctrl + O to go to the folder of your rom, cope the text of its whole name (with the .nds at the end), open it <br />
 -Save your game in front of the blonde girl who gives ribbons with the pokemon you want ribbons with in first position in your team (he must have 0 of these ribbons at the start) <br />
 -Close desmume <br />
