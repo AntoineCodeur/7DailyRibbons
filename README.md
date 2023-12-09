@@ -7,7 +7,7 @@
 
 # Setup 
 -Download the repository and extract it wherever you want <br />
--Open desmume, use ctrl + O to go to the folder of your rom, cope the text of its whole name (with the .nds at the end), open it <br />
+-Open desmume, use ctrl + O to go to the folder of your rom, copy the text of its whole name (with the .nds at the end), open it <br />
 -Save your game in front of the blonde girl who gives ribbons with the pokemon you want ribbons with in first position in your team (he must have 0 of these ribbons at the start) <br />
 -Close desmume <br />
 -Fill the userdata.txt document as follow: <br />
